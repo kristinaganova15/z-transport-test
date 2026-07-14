@@ -1,6 +1,6 @@
 # Z Transport Test
 
-Minimal ABAP backend for transport testing. Dummy table + RAP layer; build the Fiori app later in BAS.
+Minimal ABAP backend for transport testing, structured like `sap-znlp`.
 
 ## Objects
 
@@ -10,53 +10,39 @@ Minimal ABAP backend for transport testing. Dummy table + RAP layer; build the F
 | Table | `ZTTRANSPORT_DUMMY` |
 | CDS (interface) | `ZI_TRANSPORT_DUMMY` |
 | CDS (consumption) | `ZC_TRANSPORT_DUMMY` |
-| Behavior | Managed BO on `ZI_TRANSPORT_DUMMY` |
+| Behavior (interface) | `ZI_TRANSPORT_DUMMY` |
+| Behavior (consumption) | `ZC_TRANSPORT_DUMMY` |
+| Handler | `ZBP_I_TRANSPORT_DUMMY` |
 
-## Import into SAP
-
-1. Create a **transportable package** `ZTRANSPORT_TEST` in SE80/ADT.
-2. Pull this repo via **abapGit**, or copy `src/ztransport_test/` into ADT.
-3. Activate in order: table → CDS views → behavior → handler class.
-4. Later in BAS: create OData service from `ZC_TRANSPORT_DUMMY`, then generate the Fiori app.
-
-## Quick smoke test
-
-```abap
-INSERT zttransport_dummy FROM @( VALUE #(
-  id          = 'TEST000001'
-  title       = 'Hello transport'
-  description = 'Dummy row for transport test'
-  status      = 'N'
-  created_by  = sy-uname
-  created_at  = cl_abap_tstmp=>utclong_current( )
-) ).
-COMMIT WORK.
-```
-
-## Transport test checklist
-
-- [ ] Assign objects to a transport request in dev
-- [ ] Change a field label on `ZC_TRANSPORT_DUMMY`
-- [ ] Insert a test row
-- [ ] Release and import transport in target system
-- [ ] Activate all objects in target
-- [ ] Verify table data in `SE16` / `SE16N`
-
-## Layout
+## Repo layout (like sap-znlp)
 
 ```
 src/ztransport_test/
   package.devc.xml
-  ddic/tables/zttransport_dummy.abap
-  cds/
-    zi_transport_dummy.ddls.asddls
-    zc_transport_dummy.ddls.asddls
-    zi_transport_dummy.bdef.abdef
-  classes/
-    zbp_i_transport_dummy.abap
+  zttransport_dummy.tabl.xml
+  zi_transport_dummy.ddls.asddls
+  zi_transport_dummy.ddls.xml
+  zi_transport_dummy.ddls.baseinfo
+  zc_transport_dummy.ddls.asddls
+  zc_transport_dummy.ddls.xml
+  zc_transport_dummy.ddls.baseinfo
+  zi_transport_dummy.bdef.asbdef
+  zi_transport_dummy.bdef.xml
+  zc_transport_dummy.bdef.asbdef
+  zc_transport_dummy.bdef.xml
+  zbp_i_transport_dummy.clas.abap
+  zbp_i_transport_dummy.clas.xml
 ```
+
+## Import into SAP
+
+1. Create transportable package `ZTRANSPORT_TEST`.
+2. Pull via abapGit (Online/Offline) with `FOLDER_LOGIC=FULL`.
+3. Activate: table → I CDS → C CDS → I bdef → C bdef → handler class.
+4. Later in BAS: add OData service from `ZC_TRANSPORT_DUMMY`, then generate Fiori app.
 
 ## Notes
 
-- No OData service or Fiori UI yet — add those in ADT/BAS when ready.
-- Package name is not stored in git; map the repo folder to your package on import.
+- Flat package folder — no `ddic/`, `cds/`, `classes/` subfolders.
+- Tables use `.tabl.xml`, behavior uses `.bdef.asbdef`, classes use `.clas.abap` + `.clas.xml`.
+- OData service binding not included yet — add when you build the Fiori app in BAS.
