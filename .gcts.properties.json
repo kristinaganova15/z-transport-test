@@ -1,0 +1,13 @@
+{
+  "name": "ztest",
+  "version": "1.0.0",
+  "description": "ZTEST",
+  "repositoryLayout": {
+    "fingerprintSeckey": "/BYOG/FPRINT_RT/1E742F4F9F461FD19FEF2A10D7D1918B_0",
+    "format": "json",
+    "formatVersion": "11",
+    "keepClient": "false",
+    "metaInformation": ".gctsmetadata/",
+    "tableContent": "true"
+  }
+}
