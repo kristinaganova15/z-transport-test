@@ -3,7 +3,7 @@
 @EndUserText.label: 'Transport Dummy'
 
 define root view entity ZI_TRANSPORT_DUMMY
-  as select from zttransport_dummy
+  as select from zttransp_dummy
 {
   key id          as Id,
       title       as Title,

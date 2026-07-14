@@ -3,7 +3,7 @@
 {
 "FROM":
 [
-"ZTTRANSPORT_DUMMY"
+"ZTTRANSP_DUMMY"
 ],
 "ASSOCIATED":
 [],

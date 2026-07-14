@@ -1,0 +1,4 @@
+@EndUserText.label: 'Transport Dummy Service'
+define service ZUI_TRANSPORT_DUMMY {
+  expose ZC_TRANSPORT_DUMMY as DummyItem;
+}

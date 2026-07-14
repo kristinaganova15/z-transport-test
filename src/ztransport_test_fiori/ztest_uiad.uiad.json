@@ -1,0 +1,24 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "ZTEST_UIAD",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT"
+  },
+  "ui5AppDetails": {
+    "appId": "project3"
+  },
+  "navigation": {
+    "targetMappingId": "ZTEST_UIAD_TM",
+    "semanticObject": "ZTransportTest",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": []
+}

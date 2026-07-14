@@ -3,10 +3,11 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>Transport Test Package</CTEXT>
+    <CTEXT>Generated Package for ZTEST</CTEXT>
     <LANGUAGE>E</LANGUAGE>
     <MASTERLANG>E</MASTERLANG>
-    <SRV_CHECK>X</SRV_CHECK>
+    <RESTRICTED>X</RESTRICTED>
+    <MAINPACK>S</MAINPACK>
    </DEVC>
   </asx:values>
  </asx:abap>
