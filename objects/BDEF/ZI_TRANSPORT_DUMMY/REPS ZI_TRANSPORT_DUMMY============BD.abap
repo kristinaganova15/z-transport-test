@@ -1,0 +1,25 @@
+managed implementation in class zbp_i_transport_dummy unique;
+strict ( 2 );
+
+define behavior for ZI_TRANSPORT_DUMMY alias Dummy
+  persistent table zttransp_dummy
+  lock master
+  authorization master ( instance )
+  etag master CreatedAt
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly ) CreatedBy, CreatedAt;
+
+  mapping for zttransp_dummy
+  {
+    Id          = id;
+    Title       = title;
+    Description = description;
+    Status      = status;
+    CreatedBy   = created_by;
+    CreatedAt   = created_at;
+  }
+}

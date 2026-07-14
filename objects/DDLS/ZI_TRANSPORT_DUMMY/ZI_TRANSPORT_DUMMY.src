@@ -1,0 +1,33 @@
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+
+@EndUserText.label: 'Transport Dummy'
+
+define root view entity ZI_TRANSPORT_DUMMY
+  as select from zttransp_dummy
+{
+  key id          as Id,
+      title       as Title,
+      description as Description,
+      status      as Status,
+      created_by  as CreatedBy,
+      created_at  as CreatedAt
+}
+/*+[internal] {
+"BASEINFO":
+{
+"FROM":
+[
+"ZTTRANSP_DUMMY"
+],
+"ASSOCIATED":
+[],
+"BASE":
+[],
+"ANNO_REF":
+[],
+"SCALAR_FUNCTION":
+[],
+"VERSION":0,
+"ANNOREF_EVALUATION_ERROR":""
+}
+}*/

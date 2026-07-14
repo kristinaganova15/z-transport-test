@@ -1,0 +1,14 @@
+{
+ "fingerprints":
+ [
+  {
+   "name":"DDLS ZC_TRANSPORT_DUMMY.asx.json",
+   "fingerprint":"TyMnV2blgMhHTiF22cNQNQOsngSbVW1utSDAGECXv55DSCua3ssWyxXZqHiMzpm9MBDbOEJPCQYV45RWiuyELg=="
+  },
+  {
+   "name":"ZC_TRANSPORT_DUMMY.src",
+   "fingerprint":"mdOseyT99YHro5PMzAgb9MBMV645+hEvqQ/MztQAblqBHeUr3aXMNwiGBO7CVK83beHXkEgJ2bScWcCTq/hS5A=="
+  }
+ ],
+ "fingerprintAll":"BQ6Ba9d0d7R+teVk/B7mr81I6+owU/thTNbG8HW1HMg+ginwEjBtTJzuGHLACnc6aDo8z33mktn3ho5inwF9+Q=="
+}
