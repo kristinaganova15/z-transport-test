@@ -1,0 +1,58 @@
+{
+ "fingerprints":
+ [
+  {
+   "name":"CINC ZCL_ABAP_CASE=================CCAU.abap",
+   "fingerprint":"Vi3uDiP+AHQcxc+3RoJ/5l8rEcfPeGNJK7FhTz0Xevi8exn+Kow1sg4w6anrxsO6PXVqETTCeg3w8mbo1w/5Sw=="
+  },
+  {
+   "name":"CINC ZCL_ABAP_CASE=================CCDEF.abap",
+   "fingerprint":"XcWgQEVpFtyEbJtx4Tko57MVyJO42P9xOaJQDYoyy/M9dDGzsOHvRBj9rqtoDjk0sP0RqWQoKMfzDbfwo8ISUw=="
+  },
+  {
+   "name":"CINC ZCL_ABAP_CASE=================CCIMP.abap",
+   "fingerprint":"MnCMiNUJNAIKrZplpNgPBHLEm1C4jDuv5Swjpg1WhDyuTkIwt3zqRdFP0eX3xO9ROuB6WfgjLSKREdvio8Imug=="
+  },
+  {
+   "name":"CINC ZCL_ABAP_CASE=================CCMAC.abap",
+   "fingerprint":"rXsH/gbSq+ME5n9rHi8ppCR9xifM0qJevO3AVi+1FC0GkfRpf8otECHlYTDzJkArznn9SYbNJD8dxYxLFF62gg=="
+  },
+  {
+   "name":"CLAS ZCL_ABAP_CASE.asx.json",
+   "fingerprint":"ddKnpG6WnYH4Gz1sYW5C9cy8udtZjCAZttWP7LNWs8e+DzA6+PpYpLAnR54e7KK+bJfVu2U1IqsZs09F7gV8yg=="
+  },
+  {
+   "name":"CLSD ZCL_ABAP_CASE.abap",
+   "fingerprint":"YQb9vqWYSIRyYmhIIjFY235HKaCzz8qvakL2/s073LKO1HINm/wRFpNR5enlX/aQDQbvEJ/PZjhNh1exoXcaBw=="
+  },
+  {
+   "name":"CPRI ZCL_ABAP_CASE.abap",
+   "fingerprint":"Is9sj5/8NAlwgq36Pb9J6otdPzDYl99bVpotLtIUfg/ItwPU9PpPkxy6j6Sl6CfXzqNfRFNC+eHw7XwN98iYpQ=="
+  },
+  {
+   "name":"CPRO ZCL_ABAP_CASE.abap",
+   "fingerprint":"LAnIi+gL80BZABpIJh5MipFKWfVxYQfcYdfvB9MXzXFzNghyxshxzPhlo3I0Ao25jnNIAIDwCWxjGWta7gtGVg=="
+  },
+  {
+   "name":"CPUB ZCL_ABAP_CASE.abap",
+   "fingerprint":"Zdko4ku0Cuhel6367Q5IY6e8Ewi5Z4Z+baD6DZXkC799IGt+AFvcZg+kb4stILnhwuUHn8gVwplwEKiTrE1U+Q=="
+  },
+  {
+   "name":"METH CAMEL.abap",
+   "fingerprint":"H7dLGdFy7Nheqzhla2DXVXWje31VWlk1XApgqwijNYdMQvKqrCosxRsg1e3Ivr8SmwUT6VC0h7BngStFAuymbQ=="
+  },
+  {
+   "name":"METH KEBAB.abap",
+   "fingerprint":"MKejRan1T1p0OBAHK8UjpQd92wQ1zXltqOTWaJdsuswRI7lsbDeRSCZrvKYfRSb1i74eY+Ea6XLb2gxV6mFuOA=="
+  },
+  {
+   "name":"METH SNAKE.abap",
+   "fingerprint":"f6ewpE0XYsR7o0l1tREHzxxNCTWW4fjrMoHU4UiHGOd30Lbg9kVqebWXssHFMKa73Fo3ycYt+oNtYbmH3vVu3Q=="
+  },
+  {
+   "name":"REPS ZCL_ABAP_CASE=================CT.abap",
+   "fingerprint":"d/iVEGuFsSehAWUAbPRg3dYbWLW4MOVpFBl7AXZFnTeg1vZL3qtMziU+qWwpdGQYvlvl2fKHkjm+3waPGTVtFA=="
+  }
+ ],
+ "fingerprintAll":"0dSo2ebtu/wbJGEMIJu70xWr4XTu/pRa2xcqGjQyFxz56einUiJOe7yWdSP0YXT3OvM2yBrBCtirUROi39+G5g=="
+}

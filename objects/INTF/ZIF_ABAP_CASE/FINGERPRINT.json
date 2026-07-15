@@ -1,0 +1,22 @@
+{
+ "fingerprints":
+ [
+  {
+   "name":"INTF ZIF_ABAP_CASE.asx.json",
+   "fingerprint":"Rfd8rzjIP4mNQfXizwFWzIbYG3AoLZL9gR1v7OLV9AnlJ9vSk3x4JndjRcCAmBapicknj9Lw6M7InokBZyEjYA=="
+  },
+  {
+   "name":"REPS ZIF_ABAP_CASE=================IP.abap",
+   "fingerprint":"CUkPDkstlqM8CrqOsfbKMRBDZc6ALEzn9USrBiVQG4Ct4HdopVIaLvbDQQ16RqkJMGkPM+dQY8afAgngMjZABQ=="
+  },
+  {
+   "name":"REPS ZIF_ABAP_CASE=================IT.abap",
+   "fingerprint":"z1mH6SsS0cqGqDh1hCEy3DO5oLXj3rnNkDkeBxwk8VMa7/1/Dyp0R9XC7kdRggMg48vUfQPkznMJBIwXzl9r4Q=="
+  },
+  {
+   "name":"REPS ZIF_ABAP_CASE=================IU.abap",
+   "fingerprint":"6I9rP0K+fzKCWXAkpbwPYwB/yfmKUVXMBXASX9JL0wZQnNLi9saAAtfKbVuMrGccCcWPbn7Gm72HjOak9tPZ3w=="
+  }
+ ],
+ "fingerprintAll":"VWaRrGjnGETCDQbeQXte8KZfaD3Um99nWO7EkmcfFABoi86CkizctdGCsJcxQrPxjqBVMOXuKCYmRArrtauEgw=="
+}
